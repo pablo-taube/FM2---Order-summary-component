@@ -36,7 +36,7 @@ main {
 }
 
 .order-component h1 {
-    font-size: 1.1em;
+    font-size: 1.7em;
     color: #001d3d;
     display: block;
     text-align: center;
@@ -55,6 +55,8 @@ main {
 
 .plan {
     display: block;
+    /*grid-template-columns: 2fr 3fr;
+    justify-items:start;*/
     margin-left: auto;
     margin-right: auto;
     width: 18vw;
@@ -64,7 +66,45 @@ main {
 }
 
 
+.plan img {
+    display: inline;
+    width: 3vw;
+    height: 6vh;
+    margin-left: 0.5vw;
+    margin-top: 2.4vh;
+}
 
+.plan h2 {
+    font-size: 1.1em;
+    color: #001d3d;
+    display: inline;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: red;
 
-.attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+}
+
+.plan p {
+    display: inline;
+
+}
+
+.plan a {
+    display: inline;
+    
+
+}
+
+.proceed {
+    display: block;
+    width: 18vw;
+    height: 3vh;
+    color: yellow;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; }
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); }
+
