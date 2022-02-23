@@ -54,9 +54,7 @@ main {
 
 
 .plan {
-    display: block;
-    /*grid-template-columns: 2fr 3fr;
-    justify-items:start;*/
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 18vw;
@@ -67,7 +65,7 @@ main {
 
 
 .plan img {
-    display: inline;
+    /*display: inline;*/
     width: 3vw;
     height: 6vh;
     margin-left: 0.5vw;
@@ -77,7 +75,7 @@ main {
 .plan h2 {
     font-size: 1.1em;
     color: #001d3d;
-    display: inline;
+    /*display: inline;*/
     justify-content: flex-start;
     align-items: center;
     background-color: red;
@@ -95,11 +93,28 @@ main {
 
 }
 
-.proceed {
+ .proceed h3{
     display: block;
     width: 18vw;
-    height: 3vh;
-    color: yellow;
+    height: 6vh;
+    margin: auto;
+    border-radius: 10px;
+    background: #382ae1;
+    color: #ffffff;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+
+.cancel h4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18vw;
+    height: 6vh;
+    color:#6c757d;
+    text-align: center;
+    justify-content: space-around;
 }
 
 .attribution { 
