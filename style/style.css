@@ -114,8 +114,19 @@ main {
     justify-content: space-around;
 }
 
+@media screen and (max-width:480px) {
+    .order-component {
+        height: 80%;
+        width: 90%;  
+    }
+    h3 {
+        font-size: 10vh;
+    }
+}
 .attribution { 
-    font-size: 11px; text-align: center; }
+    font-size: 11px; text-align: center; 
+    }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); }
+    color: hsl(228, 45%, 44%);
+    }
