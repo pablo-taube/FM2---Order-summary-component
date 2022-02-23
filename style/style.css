@@ -65,7 +65,6 @@ main {
 
 
 .plan img {
-    /*display: inline;*/
     width: 3vw;
     height: 6vh;
     margin-left: 0.5vw;
@@ -75,7 +74,6 @@ main {
 .plan h2 {
     font-size: 1.1em;
     color: #001d3d;
-    /*display: inline;*/
     justify-content: flex-start;
     align-items: center;
     background-color: red;
@@ -83,13 +81,12 @@ main {
 }
 
 .plan p {
-    display: inline;
+    grid-row: 1fr;
+    grid-column: 1fr;
 
 }
 
-.plan a {
-    display: inline;
-    
+.plan a { 
 
 }
 
@@ -122,4 +119,3 @@ main {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); }
-
