@@ -52,55 +52,55 @@ main {
     margin: 8% 8%;
 }
 
-
 .plan {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 18vw;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "logo info cancel" "logo info2 cancel";
+    width: 22vw;
     height: 10vh;
     border-radius: 10px;
-    background: plum;
+    margin: auto;
+    background: #f7f9ff;
 }
 
 
 .plan img {
-    width: 3vw;
-    height: 6vh;
-    margin-left: 0.5vw;
-    margin-top: 2.4vh;
+    grid-area: logo;
+    margin: auto;
 }
 
 .plan h2 {
-    font-size: 1.1em;
+    grid-area: info;
+    font-size: 0.9em;
+    margin: auto;
     color: #001d3d;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: red;
-
 }
 
 .plan p {
-    grid-row: 1fr;
-    grid-column: 1fr;
+    grid-area: info2;
+    font-size: 0.9em;
+    margin: auto;
 
 }
 
 .plan a { 
-
+    grid-area: cancel;
+    margin: auto;
+    color: #382ae1;
+    font-size: 0.8em;
+    font-weight: 20px;
 }
 
  .proceed h3{
     display: block;
-    width: 18vw;
+    width: 22vw;
     height: 6vh;
     margin: auto;
     border-radius: 10px;
     background: #382ae1;
     color: #ffffff;
     text-align: center;
-    justify-content: space-around;
-    
 }
 
 .cancel h4 {
