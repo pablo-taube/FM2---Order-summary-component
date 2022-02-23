@@ -135,12 +135,10 @@ main {
 
 @media screen and (max-width:480px) {
     .order-component {
-        max-height: 20vh;
+        height: 80%;
         width: 90%;  
     }
-    h3 {
-        font-size: 10vh;
-    }
+    
 }
 .attribution { 
     font-size: 11px; text-align: center; 
