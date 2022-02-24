@@ -134,10 +134,24 @@ main {
     
 @media screen and (max-width:480px) {
     .order-component {
-        height: 75vh;
+        height: 80%;
         min-width: 85vw;  
     }
+    
+    .plan {
+       min-width: 70vw;
+       height: 10vh;
+    }
+  
+   .proceed , cancel {
+       min-width: 70vw;
+       height: 7vh;
+       margin: 10vh auto;
+   }
+    
 }
+
+@media screen and (max-
 
 .attribution { 
     font-size: 11px; text-align: center; 
