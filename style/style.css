@@ -146,12 +146,10 @@ main {
    .proceed , cancel {
        min-width: 70vw;
        height: 7vh;
-       margin: 10vh auto;
+       margin: 6vh auto;
    }
     
 }
-
-@media screen and (max-
 
 .attribution { 
     font-size: 11px; text-align: center; 
